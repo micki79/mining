@@ -1,0 +1,389 @@
+{
+  "gpus": {
+    "0": {
+      "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+      "hashrate_no_name": "RTX 3080 Laptop",
+      "current_profile": "medium",
+      "max_temp": 83,
+      "target_temp": 70,
+      "enabled": true,
+      "last_benchmark": "",
+      "coin_profiles": {
+        "RVN": {
+          "algorithm": "kawpow",
+          "low": {
+            "core_clock": 25,
+            "mem_clock": 280,
+            "power_limit": 65,
+            "fan_speed": 80,
+            "expected_hashrate": 25.6,
+            "expected_power": 80,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 50,
+            "mem_clock": 400,
+            "power_limit": 80,
+            "fan_speed": 70,
+            "expected_hashrate": 32.0,
+            "expected_power": 115,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 100,
+            "mem_clock": 500,
+            "power_limit": 90,
+            "fan_speed": 85,
+            "expected_hashrate": 33.6,
+            "expected_power": 130,
+            "expected_temp": 75,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "ERG": {
+          "algorithm": "autolykos2",
+          "low": {
+            "core_clock": 0,
+            "mem_clock": 560,
+            "power_limit": 60,
+            "fan_speed": 75,
+            "expected_hashrate": 144.0,
+            "expected_power": 73,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 0,
+            "mem_clock": 800,
+            "power_limit": 75,
+            "fan_speed": 70,
+            "expected_hashrate": 180.0,
+            "expected_power": 105,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 50,
+            "mem_clock": 900,
+            "power_limit": 85,
+            "fan_speed": 85,
+            "expected_hashrate": 189.0,
+            "expected_power": 120,
+            "expected_temp": 75,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "ETC": {
+          "algorithm": "etchash",
+          "low": {
+            "core_clock": -150,
+            "mem_clock": 630,
+            "power_limit": 55,
+            "fan_speed": 75,
+            "expected_hashrate": 57.6,
+            "expected_power": 70,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": -150,
+            "mem_clock": 900,
+            "power_limit": 70,
+            "fan_speed": 70,
+            "expected_hashrate": 72.0,
+            "expected_power": 100,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": -100,
+            "mem_clock": 1000,
+            "power_limit": 80,
+            "fan_speed": 85,
+            "expected_hashrate": 75.6,
+            "expected_power": 115,
+            "expected_temp": 75,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "KAS": {
+          "algorithm": "kheavyhash",
+          "low": {
+            "core_clock": 100,
+            "mem_clock": 0,
+            "power_limit": 45,
+            "fan_speed": 70,
+            "expected_hashrate": 256.0,
+            "expected_power": 63,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 150,
+            "mem_clock": 0,
+            "power_limit": 60,
+            "fan_speed": 65,
+            "expected_hashrate": 320.0,
+            "expected_power": 90,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 200,
+            "mem_clock": 0,
+            "power_limit": 70,
+            "fan_speed": 80,
+            "expected_hashrate": 336.0,
+            "expected_power": 105,
+            "expected_temp": 75,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "FLUX": {
+          "algorithm": "equihash125",
+          "low": {
+            "core_clock": 50,
+            "mem_clock": 0,
+            "power_limit": 70,
+            "fan_speed": 80,
+            "expected_hashrate": 44.0,
+            "expected_power": 80,
+            "expected_temp": 55,
+            "hashrate_unit": "Sol/s"
+          },
+          "medium": {
+            "core_clock": 100,
+            "mem_clock": 0,
+            "power_limit": 85,
+            "fan_speed": 75,
+            "expected_hashrate": 55.0,
+            "expected_power": 115,
+            "expected_temp": 65,
+            "hashrate_unit": "Sol/s"
+          },
+          "high": {
+            "core_clock": 150,
+            "mem_clock": 0,
+            "power_limit": 95,
+            "fan_speed": 90,
+            "expected_hashrate": 57.8,
+            "expected_power": 130,
+            "expected_temp": 75,
+            "hashrate_unit": "Sol/s"
+          }
+        },
+        "ALPH": {
+          "algorithm": "blake3",
+          "low": {
+            "core_clock": 25,
+            "mem_clock": 280,
+            "power_limit": 60,
+            "fan_speed": 75,
+            "expected_hashrate": 1.76,
+            "expected_power": 77,
+            "expected_temp": 55,
+            "hashrate_unit": "GH/s"
+          },
+          "medium": {
+            "core_clock": 50,
+            "mem_clock": 400,
+            "power_limit": 75,
+            "fan_speed": 70,
+            "expected_hashrate": 2.2,
+            "expected_power": 110,
+            "expected_temp": 65,
+            "hashrate_unit": "GH/s"
+          },
+          "high": {
+            "core_clock": 100,
+            "mem_clock": 500,
+            "power_limit": 85,
+            "fan_speed": 85,
+            "expected_hashrate": 2.31,
+            "expected_power": 125,
+            "expected_temp": 75,
+            "hashrate_unit": "GH/s"
+          }
+        },
+        "BEAM": {
+          "algorithm": "beamhashiii",
+          "low": {
+            "core_clock": 0,
+            "mem_clock": 350,
+            "power_limit": 60,
+            "fan_speed": 75,
+            "expected_hashrate": 22.4,
+            "expected_power": 70,
+            "expected_temp": 55,
+            "hashrate_unit": "Sol/s"
+          },
+          "medium": {
+            "core_clock": 0,
+            "mem_clock": 500,
+            "power_limit": 75,
+            "fan_speed": 70,
+            "expected_hashrate": 28.0,
+            "expected_power": 100,
+            "expected_temp": 65,
+            "hashrate_unit": "Sol/s"
+          },
+          "high": {
+            "core_clock": 50,
+            "mem_clock": 600,
+            "power_limit": 85,
+            "fan_speed": 85,
+            "expected_hashrate": 29.4,
+            "expected_power": 115,
+            "expected_temp": 75,
+            "hashrate_unit": "Sol/s"
+          }
+        },
+        "FIRO": {
+          "algorithm": "firopow",
+          "low": {
+            "core_clock": 25,
+            "mem_clock": 280,
+            "power_limit": 65,
+            "fan_speed": 80,
+            "expected_hashrate": 17.6,
+            "expected_power": 77,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 50,
+            "mem_clock": 400,
+            "power_limit": 80,
+            "fan_speed": 75,
+            "expected_hashrate": 22.0,
+            "expected_power": 110,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 100,
+            "mem_clock": 500,
+            "power_limit": 90,
+            "fan_speed": 85,
+            "expected_hashrate": 23.1,
+            "expected_power": 125,
+            "expected_temp": 75,
+            "hashrate_unit": "MH/s"
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "NVIDIA GeForce RTX 3070",
+      "hashrate_no_name": "RTX 3070",
+      "current_profile": "medium",
+      "max_temp": 80,
+      "target_temp": 68,
+      "enabled": true,
+      "last_benchmark": "",
+      "coin_profiles": {
+        "RVN": {
+          "algorithm": "kawpow",
+          "low": {
+            "core_clock": 50,
+            "mem_clock": 350,
+            "power_limit": 55,
+            "fan_speed": 70,
+            "expected_hashrate": 24.0,
+            "expected_power": 98,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 100,
+            "mem_clock": 500,
+            "power_limit": 70,
+            "fan_speed": 65,
+            "expected_hashrate": 30.0,
+            "expected_power": 140,
+            "expected_temp": 65,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 150,
+            "mem_clock": 600,
+            "power_limit": 85,
+            "fan_speed": 80,
+            "expected_hashrate": 31.5,
+            "expected_power": 160,
+            "expected_temp": 72,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "ERG": {
+          "algorithm": "autolykos2",
+          "low": {
+            "core_clock": 0,
+            "mem_clock": 700,
+            "power_limit": 50,
+            "fan_speed": 65,
+            "expected_hashrate": 136.0,
+            "expected_power": 84,
+            "expected_temp": 55,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 0,
+            "mem_clock": 1000,
+            "power_limit": 65,
+            "fan_speed": 60,
+            "expected_hashrate": 170.0,
+            "expected_power": 120,
+            "expected_temp": 63,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 50,
+            "mem_clock": 1100,
+            "power_limit": 75,
+            "fan_speed": 75,
+            "expected_hashrate": 178.5,
+            "expected_power": 140,
+            "expected_temp": 70,
+            "hashrate_unit": "MH/s"
+          }
+        },
+        "KAS": {
+          "algorithm": "kheavyhash",
+          "low": {
+            "core_clock": 100,
+            "mem_clock": 0,
+            "power_limit": 40,
+            "fan_speed": 60,
+            "expected_hashrate": 280.0,
+            "expected_power": 73,
+            "expected_temp": 52,
+            "hashrate_unit": "MH/s"
+          },
+          "medium": {
+            "core_clock": 200,
+            "mem_clock": 0,
+            "power_limit": 55,
+            "fan_speed": 55,
+            "expected_hashrate": 350.0,
+            "expected_power": 105,
+            "expected_temp": 60,
+            "hashrate_unit": "MH/s"
+          },
+          "high": {
+            "core_clock": 250,
+            "mem_clock": 0,
+            "power_limit": 65,
+            "fan_speed": 70,
+            "expected_hashrate": 367.5,
+            "expected_power": 125,
+            "expected_temp": 68,
+            "hashrate_unit": "MH/s"
+          }
+        }
+      }
+    }
+  }
+}
