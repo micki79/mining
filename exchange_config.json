@@ -1,0 +1,87 @@
+{
+  "_info": "Börsen-API Konfiguration - Trage deine API Keys ein",
+  "_warnung": "⚠️ Verwende NUR Read-Only API Keys ohne Withdrawal-Rechte!",
+  
+  "coinex": {
+    "_info": "✅ VORINSTALLIERT! API Keys in coinex_config.json",
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.coinex.com/api-management"
+  },
+  
+  "binance": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.binance.com/en/my/settings/api-management"
+  },
+  
+  "kraken": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.kraken.com/u/security/api"
+  },
+  
+  "kucoin": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "BENÖTIGT für KuCoin!",
+    "_help": "https://www.kucoin.com/account/api"
+  },
+  
+  "bybit": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.bybit.com/app/user/api-management"
+  },
+  
+  "okx": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "BENÖTIGT für OKX!",
+    "_help": "https://www.okx.com/account/my-api"
+  },
+  
+  "gateio": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.gate.io/myaccount/apiv4keys"
+  },
+  
+  "mexc": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
+    "_help": "https://www.mexc.com/user/openapi"
+  },
+  
+  "bitget": {
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "BENÖTIGT für Bitget!",
+    "_help": "https://www.bitget.com/api-management"
+  },
+  
+  "wallets": [
+    {
+      "coin": "RVN",
+      "network": "RVN",
+      "address": "RUVuL3CG2c9qTX3bCr32AfCZ5DJEfdJUTR",
+      "memo": null,
+      "exchange": "Manual",
+      "last_updated": "2025-11-29"
+    },
+    {
+      "coin": "ERG",
+      "network": "ERG",
+      "address": "9f4QF8AD1nQ3nCAL9L2fT1g6jqF7F6jQpNZbHdFwqDDRJoxCwPX",
+      "memo": null,
+      "exchange": "Manual",
+      "last_updated": "2025-11-29"
+    }
+  ]
+}

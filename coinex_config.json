@@ -1,0 +1,6 @@
+{
+  "api_key": "YOUR_COINEX_API_KEY",
+  "api_secret": "YOUR_COINEX_API_SECRET",
+  "updated": "2024-11-30 00:25:00",
+  "note": "CoinEx API für automatisches Wallet-Abrufen - Mining Test"
+}
