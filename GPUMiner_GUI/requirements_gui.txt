@@ -1,0 +1,36 @@
+# GPU Mining Profit Switcher V12.7 Ultimate - GUI Requirements
+# Installation: pip install -r requirements_gui.txt
+
+# === CORE ===
+requests>=2.28.0
+pyyaml>=6.0
+colorama>=0.4.6
+psutil>=5.9.0
+
+# === GUI FRAMEWORK ===
+# PySide6 - Qt6 für Python (LGPL Lizenz - kostenlos kommerziell nutzbar!)
+PySide6>=6.6.0
+
+# === CHARTS ===
+# pyqtgraph - Ultra-schnelle Live-Charts (1000+ FPS)
+pyqtgraph>=0.13.3
+
+# === GPU MONITORING ===
+# nvidia-ml-py - NVIDIA Management Library (NVML) Bindings
+nvidia-ml-py>=12.535.133
+
+# === WINDOWS HARDWARE MONITORING ===
+# WMI - Windows Management Instrumentation (für AMD/Intel GPUs + CPU)
+WMI>=1.5.1
+
+# === AI AGENT (NEU V12.7) ===
+# beautifulsoup4 - Web Scraping für Lösungssuche
+beautifulsoup4>=4.12.0
+
+# === OPTIONAL - AMD GPU Support ===
+# Installiere für erweiterte AMD GPU Monitoring:
+# pip install pyamdgpuinfo
+
+# === OPTIONAL ===
+# Dunkles Theme (kann auch manuell gesteuert werden)
+# pyqtdarktheme>=2.1.0
